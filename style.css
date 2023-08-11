@@ -134,12 +134,12 @@ footer p {
   padding: 20px;
 }
 
-form.vacation-form div.item {
-    width: 50px;
-  }
+  
 /*   Media  */
 @media all and (min-width: 480px) {
- 
+  form.vacation-form div.item {
+    width: 50px;
+  }
   .group {
     display: flex;
     flex-direction: row;
