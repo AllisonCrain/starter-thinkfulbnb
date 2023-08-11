@@ -138,7 +138,11 @@ form.vacation-form div.item {
     width: 50px;
   }
 /*   Media  */
-@media all and (min-width: 480px) {
+  @media only screen and (max-width: 768px) and (min-width: 480px) {
+
+    form.vacation-form input, form.vacation-form select {
+    width: 50px;
+    }
 
   .group {
     display: flex;
