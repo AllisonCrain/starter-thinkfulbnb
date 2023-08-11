@@ -138,12 +138,8 @@ form.vacation-form div.item {
     width: 50px;
   }
 /*   Media  */
-  @media only screen and (max-width: 768px) and (min-width: 480px) {
-
-    form.vacation-form input, form.vacation-form select {
-    width: 50px;
-    }
-
+@media all and (min-width: 480px) {
+ 
   .group {
     display: flex;
     flex-direction: row;
@@ -195,5 +191,11 @@ form.vacation-form div.item {
     margin: 10px;
   }
 
-}
+  @media only screen and (max-width: 768px) and (min-width: 480px) {
 
+    form.vacation-form input, form.vacation-form select {
+    width: 50px;
+    }
+
+}
+}
